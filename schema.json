@@ -1,0 +1,48 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Navigation api that haleps to navigate between miniapps",
+    "title": "Navigation api",
+    "contact": {
+      "name": "@WalmartLabs"
+    }
+  },
+  "paths": {
+    "/items": {
+      "post": {
+        "tags": [
+          "Navigation"
+        ],
+        "description": "Helps to navigate between miniapps",
+        "operationId": "navigate",
+        "parameters": [
+          {
+            "name": "miniAppName",
+            "in": "body",
+            "description": "Component name of the miniapp",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "initialPayload",
+            "in": "body",
+            "description": "Payload required for the miniapp",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  }
+}
