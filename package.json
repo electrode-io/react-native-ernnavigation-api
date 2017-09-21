@@ -3,7 +3,6 @@
   "version": "0.0.2",
   "description": "ERN Generated API for navigation",
   "main": "javascript/src/index.js",
-  "author": "WalmartLabs",
   "scripts": {
     "flow": "flow"
   },
