@@ -1,6 +1,6 @@
 {
   "name": "react-native-ernnavigation-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ERN Generated API for ernnavigation",
   "main": "javascript/src/index.js",
   "author": "WalmartLabs",
