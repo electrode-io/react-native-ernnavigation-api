@@ -1,17 +1,21 @@
 {
   "name": "react-native-ernnavigation-api",
   "version": "0.0.3",
-  "description": "ERN Generated API for navigation",
+  "description": "ERN Generated API for ernnavigation",
   "main": "javascript/src/index.js",
+  "author": "WalmartLabs",
   "scripts": {
     "flow": "flow"
   },
-  "peerDependencies": {
-    "@walmart/react-native-electrode-bridge": "1.x"
+  "devDependencies": {
+    "flow-bin": "^0.47.0"
+  },
+  "dependencies": {
+    "react-native-electrode-bridge": "1.5.x"
   },
   "ern": {
     "message": {
-      "apiName": "navigation",
+      "apiName": "ernnavigation",
       "namespace": "com.ernnavigation.ern",
       "apiSchemaPath": "schema.json",
       "artifactId": "react-native-ernnavigation-api"
@@ -20,8 +24,5 @@
   },
   "keywords": [
     "ern-api"
-  ],
-  "devDependencies": {
-    "flow-bin": "^0.47.0"
-  }
+  ]
 }
