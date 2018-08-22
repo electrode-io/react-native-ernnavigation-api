@@ -1,5 +1,4 @@
 {
-  "author": "WalmartLabs",
   "dependencies": {
     "react-native-electrode-bridge": "1.5.x"
   },
@@ -24,5 +23,5 @@
   "scripts": {
     "flow": "flow"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
